@@ -1,0 +1,169 @@
+.encabezadoPerfil{
+    font-family: 'Roboto', sans-serif;
+    background-color: #272626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-style: normal;
+    padding: 10px;
+    width:auto;
+}
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: flex-start
+}
+
+.encabezadoPerfil a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: rgb(0, 193, 193);
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+}
+.listaPerfil{
+    margin: 12px;
+}
+.cuerpoPerfil{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-left:50px;
+    display: flex;
+    justify-content: center;
+
+    gap: 10px;
+}
+.columnaPrincipal{
+    font-family: cursive;
+    width:450px;
+    margin-right: 25px;
+}
+.encabezado{
+    height: 70px;
+    background-color: rgb(0, 193, 193);
+    position: relative;
+}
+
+.usuario{
+    width: 60px;
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    border: 2px solid rgb(217, 217, 217);
+    border-radius: 50%;
+}
+
+.cuerpo{
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border: 2px solid rgb(217, 217, 217);
+}
+
+.ubicacion, .perfil{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.marcador{
+    width: 12px;
+}
+.educacion{
+    
+    padding: auto;
+}
+.tituloEducacion{
+    height: 40px;
+    background-color: #272626;
+    color: #ffffff;
+    
+}
+h3{
+    margin-left: 10px;
+}
+.fecha{
+    color: rgb(198, 193, 193);
+}
+.tituloConecciones{
+    background-color: #373636;
+    color: #ffffff;
+    display: flex;
+    width: 250px;
+    align-items: center;
+
+}
+.numeroConectados{
+    color: rgb(76, 73, 73);
+    background-color:#bab7b7;
+    display: flex;
+    border-radius: 50%;
+    padding: 5px;
+    
+}
+.cuerpoConciones{
+    display: flex;
+    border: 2px solid rgb(217, 217, 217);
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 40px;
+    border: 2px solid rgb(217, 217, 217);
+    border-radius: 50%;
+}
+.icono{
+    width: 30px;
+    border: 2px solid rgb(217, 217, 217);
+    border-radius: 50%;
+}
+.contactos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.contacto{
+    display: flex;
+    margin-right: 5px;
+    margin-top: 3px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.presentacion{
+    display: flex;
+    justify-content: space-evenly;
+}
+.TusConexiones{
+    margin-top: 25px;
+}
+.tituloTusConecciones{
+    background-color: #373636;
+    color: #ffffff;
+    display: flex;
+    width: 250px;
+    align-items: center;
+
+}
+.verMas{
+    color: rgb(245, 245, 245);
+    background-color:#fafafa;
+    display: flex;
+    border: solid;
+    padding: 5px;
+    border: 2px solid rgb(217, 217, 217);
+}
