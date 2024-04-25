@@ -24,7 +24,7 @@
                         <img class="usuario" src="./icons/user-circle.png" alt="Imagen de usuario">
                     </div>
                     <div class="cuerpo">
-                        <h2> Jane Doe </h2>
+                        <h2 class="nombreUsuario"> Jane Doe </h2>
                         <div class="ubicacion">
                             <img class="marcador" src="./icons/map-marker.png" alt="ubicación">
                             <p class="ciudad"> Seattle </p>
@@ -35,7 +35,7 @@
                         </div>
                         <div class="pefil">
                             <img src="./icons/gear.png" alt="edición" class="marcador">
-                            <a href="#"> edit profile </a>
+                            <a onclick="cambiarNombre()" href="#"> edit profile </a>
                         </div>
                     </div>
                 </div>
@@ -64,8 +64,8 @@
                                     <p class="Tood"> Tood E </p>
                                 </div>
                                 <div class="iconos">
-                                    <img class ="icono" src="./icons/accept-circle.png" alt="icono de bien">
-                                    <img class ="icono" src="./icons/close-circle.png" alt="imagen de mal">
+                                    <img onclick="agregarC(this)" class ="icono" src="./icons/accept-circle.png" alt="icono de bien">
+                                    <img onclick="removerC(this)" class ="icono" src="./icons/close-circle.png" alt="imagen de mal">
                                 </div>
                             </div>
                             <div class="contacto">
@@ -74,8 +74,8 @@
                                     <p class="Phil"> Phil S </p>
                                 </div>
                                 <div class="iconos">
-                                    <img class ="icono" src="./icons/accept-circle.png" alt="icono de bien">
-                                    <img class ="icono" src="./icons/close-circle.png" alt="imagen de mal">
+                                    <img onclick="agregarC(this)" class ="icono" src="./icons/accept-circle.png" alt="icono de bien">
+                                    <img  onclick="removerC(this)" class ="icono" src="./icons/close-circle.png" alt="imagen de mal">
                                 </div>
                             </div>
                         </div>
@@ -85,12 +85,12 @@
                 </div>
                 <div  class="TusConexiones">
                     <div class="tituloTusConecciones">
-                        <h3 class="numeroConectados">500+</h3>
+                        <h3 id="totalConectados" class="numeroConectados">500</h3>
                         <h3>Your Conections</h3>
                     </div>
                     <div class="cuerpoConciones">
-                        <div class="contactos">
-                            <div class="contacto">
+                        <div id="listaDeContactos" class="contactos">
+                            <div id="contacto" class="contacto">
                                     <img src="./images/adrien-s.jpg" alt="imagen de adrien">
                                     <p class="Tood"> Adrien D </p>
                             </div>
@@ -116,5 +116,6 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
